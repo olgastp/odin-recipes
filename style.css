@@ -6,9 +6,58 @@ body {
 
 .heading {
     text-align: center;
-    color:rgb(255, 255, 255);
+    color:rgba(223, 117, 151, 0.989);
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.633);
+    
 }
 
 button {
-    margin: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px;
+    border-style: solid;
+    border-color: palevioletred;
+    color: rgb(181, 63, 124);
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    border-radius: 17px;
+    
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    border: 3px;
+    border-style: dashed;
+    border-color: rgba(253, 243, 246, 0.82);
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.272);;
+}
+ul {
+    list-style: none;
+}
+ul li:before {
+    content: '\2661';
+    color: palevioletred;
+    margin: 10px;
+}
+.desc {
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.461);
+    border-radius: 17px;
+    padding: 10px;
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+h3 {
+    color: rgba(223, 117, 151, 0.989);
+    margin-left: 50px;
+}
+ol {
+    margin-left: 30px;
 }
