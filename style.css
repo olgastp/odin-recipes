@@ -1,0 +1,14 @@
+body {
+  font-family:Arial, Helvetica, sans-serif;
+  background-image: url(../odin-recipes/images/cloud.jpg);
+  background-size: cover;
+}
+
+.heading {
+    text-align: center;
+    color:rgb(255, 255, 255);
+}
+
+button {
+    margin: 20px;
+}
